@@ -1,0 +1,129 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 62.5%;
+}
+.container{
+	background-image: url(./img/pattern-background-mobile.svg);
+	width: 100vw;
+	height: 100vh;
+	background-size: 100vw 100vh;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+img{
+	width: 80vw;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+	margin: auto;
+}
+.container-main{
+	background-color:white;
+	display: flex;
+	flex-wrap: wrap;
+	width: 80vw;
+	min-height: 15rem;
+	border-radius: 1rem;
+	margin: auto;
+}
+.section{
+	display: flex;
+	flex-wrap: wrap;
+}
+.titulo{
+	width: 60vw;
+	padding: 1rem ;
+	padding-top: 2rem;
+	text-align: center;
+	color: hsl(223, 47%, 23%);
+	margin: auto;
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 900;
+}
+.parrafo{
+	width: 60vw;
+	margin: auto;
+	padding: 1.5rem;
+	text-align: center;
+	color:  hsl(224, 23%, 55%);
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 500;
+	padding-top: 0.75rem;
+}
+.date{
+	border-radius: 1rem;
+	margin: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: 60vw;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: hsl(225, 100%, 98%);
+}
+.icon-img{
+	width: 50%;
+	margin-left:10px;
+}
+.plan{
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 700;	
+}
+.monto{
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 500;
+	color:  hsl(224, 23%, 55%);
+}
+.change{
+	margin: auto;
+	color: hsl(245, 75%, 52%);
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 700;
+}
+.change:hover{
+	color:hsl(224, 23%, 55%);
+	text-decoration: none;
+}
+
+.proceed{
+	width: 60vw;
+	text-decoration: none;
+	padding: 1rem 3rem;
+	background-color:  hsl(245, 75%, 52%);
+	border-radius: 0.5rem;
+	margin: auto;
+	border: none;
+	cursor: pointer;
+	color: hsl(225, 100%, 98%);
+	box-shadow: 0px 10px 30px hsl(224, 23%, 55%) ;
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 900;
+	
+
+}
+.proceed:hover{
+	background-color: hsl(224, 23%, 55%) ;
+	color: hsl(225, 100%, 98%);
+}
+.cancel{
+	width: 60vw;
+	text-decoration: none;
+	padding: 1rem 3rem;
+	border-radius: 0.5rem;
+	margin: 1rem auto;
+	margin-bottom: 2rem;
+	border: none;
+	cursor: pointer;
+	background-color:transparent;
+	color: hsl(224, 23%, 55%);
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 900;
+}
+.cancel:hover{
+	 color: hsl(223, 47%, 23%);
+}

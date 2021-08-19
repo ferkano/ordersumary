@@ -1,0 +1,29 @@
+	img{
+		width: 100%;
+		margin: auto;
+	}
+	.container{
+		background-image: url(./img/pattern-background-desktop.svg);
+		width: 100vw;
+		height: 100vh;
+		background-size: 100vw 100vh;
+	}
+	.container-main{
+		width: 30rem;
+		margin: auto;
+	}
+	.titulo{
+		width:22.5rem;
+	}
+	.parrafo{
+		width: 22.5rem;
+	}
+	.date{
+		width: 22.5rem;
+	}
+	.proceed{
+		width: 22.5rem;
+	}
+	.cancel{
+		width: 22.5rem;
+	}
